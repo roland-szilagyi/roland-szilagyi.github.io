@@ -9,4 +9,4 @@ Alkalmazott technológiák:
 
 ## Hostolás
 
-[roland-szilagyi.github.io] (https://roland-szilagyi.github.iog)
+[roland-szilagyi.github.io] (https://roland-szilagyi.github.io)
