@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.nav-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("./images/wallpaper.jpg");
+    background-size: auto;
+}
+
+/* fontok */
+
+@font-face {
+    font-family: "poppins";
+    src: url(./fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "rowdies";
+    src: url(./fonts/Rowdies-Light.ttf);
+}
+
+@font-face {
+    font-family: "shadows";
+    src: url(./fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: "baskervville";
+    src: url(./fonts/Baskervville-Regular.otf)
+}
+
+@font-face {
+    font-family: "nanumgothic";
+    src: url(./fonts/NanumGothicCoding-Regular.ttf)
+}
+
+/* logok */
+
+.html5logo {
+    width: 10rem;
+}
+
+.csslogo {
+    width: 10rem;
+}
+
+/* navigáció */
+
+.nav-container {
+    margin-top: 2rem;
+    height: 4rem;
+    display: flex;
+    background-color: white;
+    opacity: 0.85
+}
+
+.nav-item1 {
+    width: 20%;
+    background-color: lightgray;
+}
+
+.nav-item2 {
+    width: 30%;
+    display: flex;
+}
+
+.nav-item3 {
+    width: 17%;
+    font-family: "poppins";
+    font-size: 1.3rem;
+}
+
+.nav-item4 {
+    width: 17%;
+    font-family: "poppins";
+    font-size: 1.3rem;
+}
+
+.nav-item5 {
+    width: 17%;
+    font-family: "poppins";
+    font-size: 1.3rem;
+}
+
+/* navigáció vége */
+/* main */
+
+.main-container {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: 13rem 2rem;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 10rem;
+    font-family: "poppins";
+    color: white;
+    position: relative;
+    top: 3rem;
+
+}
+
+.main-p1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.main-p2 {
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "shadows";
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.main-p3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "baskervville";
+    color: white;
+}
+
+/* main vége */
+/* skills */
+
+.skills-title-container {
+    height: 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 16rem;
+    background-color: white;
+    opacity: 0.85;
+}
+
+.skills-title1 {
+    width: 20%;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.skills-title2-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.skills-title2 {
+    width: 25rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "poppins";
+}
+
+.skills-items {
+    width: 10rem;
+    height: 14rem;
+    margin: 3rem;
+}
+
+.skills-items__row2 {
+    outline: 1px solid grey;
+    width: 10rem;
+    height: 14rem;
+    margin: 3rem;
+}
+
+.skills-items-container {
+    height: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 2rem 2rem 2rem;
+    padding: 1rem;
+}
+
+/* tanusítványok */
+
+.certificate-container {
+    height: 14rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.certificate-item1 {
+    outline: 1px solid grey;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 1rem;
+}
+
+.certificate-item2 {
+    outline: 1px solid grey;
+    width: 20rem;
+    height: 12rem;
+    margin-right: 1rem;
+}
+
+/* skills vége */
+/* portfolio kezdete */
+
+.portfolio-title-container {
+    height: 4rem;
+    display: flex;
+    margin-top: 10rem;
+    background: white;
+    opacity: 0.85;
+}
+
+.portfolio-title1 {
+    width: 20%;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.portfolio-title2-container {
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.portfolio-title2 {
+    width: 25rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: "poppins";
+}
+
+.portfolio-items-container {
+    width: max-width;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 2rem 2rem 2rem;
+}
+
+.portfolio-items {
+    outline: 1px solid grey;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* portfolio vége */
+/* about kezdete */
+
+.about-title-container {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: white;
+    opacity: 0.85;
+}
+
+.about-title {
+    width: 20rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "poppins";
+}
+
+.about-items-container {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 2rem 2rem 2rem;
+}
+
+.about-item1 {
+    outline: 1px solid grey;
+    width: 20rem;
+    height: 20rem;
+}
+
+.about-item2 {
+    width: 30rem;
+    height: 6rem;
+    font-family: "nanumgothic";
+    color: white;
+    font-size: 2.6rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-links-container {
+    outline: 1px solid purple;
+    width: 30rem;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.github-container {
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+}
+
+.github {
+    width: 6rem;
+}
+
+.linkedin-container {
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+}
+
+.linkedin {
+    width: 6rem;
+}
+
+.facebook-container {
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+}
+
+.facebook {
+    width: 6rem;
+}
+
+/* about vége */
+/* footer kezdete */
+
+.footer-container {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10rem 0 0 0;
+    padding: 1rem;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.footer-item {
+    width: 30rem;
+    height: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "baskervville" Arial, Helvetica, sans-serif
+}
