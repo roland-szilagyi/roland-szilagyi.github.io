@@ -13,6 +13,10 @@ body {
     background-size: cover;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /* fontok */
 
 @font-face {
@@ -243,12 +247,13 @@ body {
     height: 4rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     font-size: 3rem;
 }
 
 .portfolio-title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25rem;
     height: 4rem;
     font-size: 2rem;
