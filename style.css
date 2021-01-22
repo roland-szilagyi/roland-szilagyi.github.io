@@ -17,6 +17,11 @@ a:link {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 /* fontok */
 
 @font-face {
@@ -42,16 +47,6 @@ a:link {
 @font-face {
     font-family: "nanumgothic";
     src: url(./fonts/NanumGothicCoding-Regular.ttf)
-}
-
-/* logok */
-
-.html5logo {
-    width: 10rem;
-}
-
-.csslogo {
-    width: 10rem;
 }
 
 /* navigáció */
@@ -115,7 +110,6 @@ a:link {
     color: white;
     position: relative;
     top: 3rem;
-
 }
 
 .main-p1 {
@@ -192,37 +186,35 @@ a:link {
 }
 
 .skills-items-container {
-    height: 45rem;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 4rem 2rem 2rem 2rem;
     padding: 1rem;
 }
 
 /* tanusítványok */
 
 .certificate-container {
-    height: 14rem;
+    height: 40rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0 2rem 2rem 2rem;
+    margin: 2rem 2rem 2rem 2rem;
 }
 
 .certificate-item1 {
     outline: 1px solid grey;
-    width: 12rem;
+    width: 20rem;
     height: 12rem;
-    margin-left: 1rem;
 }
 
 .certificate-item2 {
     outline: 1px solid grey;
     width: 20rem;
     height: 12rem;
-    margin-right: 1rem;
 }
 
 /* skills vége */
@@ -386,4 +378,9 @@ a:link {
     font-size: 1.5rem;
     text-align: center;
     font-family: "baskervville" Arial, Helvetica, sans-serif
+}
+
+/* Kis képernyőméret */
+@media screen and (min-width: 576px) {
+
 }
