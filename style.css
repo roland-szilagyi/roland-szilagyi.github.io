@@ -78,34 +78,35 @@ img {
 .nav-item3 {
     width: 17%;
     font-family: "poppins";
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .nav-item4 {
     width: 17%;
     font-family: "poppins";
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .nav-item5 {
     width: 17%;
     font-family: "poppins";
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 /* navigáció vége */
 /* main */
 
 .main-container {
-    height: 40rem;
+    height: 42rem;
     display: flex;
     flex-direction: column;
-    margin: 13rem 2rem;
+    margin: 2rem 2rem;
+    padding: 11rem 0 11rem 0;
 }
 
 .main-title {
     text-align: center;
-    font-size: 10rem;
+    font-size: 8rem;
     font-family: "poppins";
     color: white;
     position: relative;
@@ -115,7 +116,7 @@ img {
 .main-p1 {
     justify-content: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -130,7 +131,7 @@ img {
 
 .main-p3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: "baskervville";
     color: white;
 }
@@ -142,7 +143,6 @@ img {
     height: 4rem;
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 16rem;
     background-color: white;
     opacity: 0.85;
 }
@@ -157,9 +157,6 @@ img {
     width: 80%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 3rem;
 }
 
 .skills-title2 {
@@ -168,20 +165,19 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: "poppins";
 }
 
 .skills-items {
-    width: 10rem;
-    height: 14rem;
+    width: 8rem;
     margin: 3rem;
 }
 
 .skills-items__row2 {
     outline: 1px solid grey;
-    width: 10rem;
-    height: 14rem;
+    width: 8rem;
+    height: 12rem;
     margin: 3rem;
 }
 
@@ -191,30 +187,35 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    margin: 1rem;
+    padding-top: 3rem;
 }
 
 /* tanusítványok */
 
 .certificate-container {
-    height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 1rem;
+    padding: 1rem 1rem 5rem;
 }
 
 .certificate-item1 {
     outline: 1px solid grey;
     width: 20rem;
     height: 12rem;
+    margin: 2rem;
+    text-align: center;
 }
 
 .certificate-item2 {
     outline: 1px solid grey;
     width: 20rem;
     height: 12rem;
+    margin: 2rem;
+    text-align: center;
 }
 
 /* skills vége */
@@ -223,7 +224,6 @@ img {
 .portfolio-title-container {
     height: 4rem;
     display: flex;
-    margin-top: 10rem;
     background: white;
     opacity: 0.85;
 }
@@ -248,18 +248,18 @@ img {
     align-items: center;
     width: 25rem;
     height: 4rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: "poppins";
 }
 
 .portfolio-items-container {
-    width: max-width;
-    height: 60rem;
+    height: 64rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 4rem 2rem 2rem 2rem;
+    margin: 1rem;
+    padding: 4rem 2rem;
 }
 
 .portfolio-items {
@@ -279,7 +279,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
     background-color: white;
     opacity: 0.85;
 }
@@ -292,12 +291,13 @@ img {
 }
 
 .about-items-container {
-    height: 40rem;
+    height: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 5rem 2rem 2rem 2rem;
+    margin: 1rem;
+    padding: 6rem 1rem 1rem;
 }
 
 .about-item1 {
@@ -308,12 +308,12 @@ img {
 
 .about-item2 {
     width: 30rem;
-    height: 6rem;
     font-family: "nanumgothic";
     color: white;
     font-size: 2.6rem;
     display: flex;
     align-items: flex-start;
+    margin: 1rem;
 }
 
 .about-links-container {
@@ -324,6 +324,8 @@ img {
     align-items: center;
     color: white;
     font-size: 2.5rem;
+    margin: 1rem;
+    padding: 3rem;
 }
 
 .github-container {
@@ -365,7 +367,6 @@ img {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 10rem 0 0 0;
     padding: 1rem;
     background-color: black;
     opacity: 0.85;
