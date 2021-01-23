@@ -436,3 +436,47 @@ img {
     height: 6rem;
 }
 }
+
+@media screen and (min-width: 768px) {
+
+.main-container {
+    height: 52rem;
+}
+
+.main-title {
+    font-size: 14rem;
+}
+
+.main-p1 {
+    font-size: 5rem;
+}
+
+.main-p2 {
+    font-size: 9rem;
+}
+
+.main-p3 {
+    font-size: 3rem;
+}
+
+.skills-items {
+    width: 8rem;
+}
+
+.certificate-items {
+    width: 35rem;
+}
+
+.certificate-container {
+    padding: 4rem 1rem 10rem; /* jegyezd */
+}
+
+.portfolio-items {
+    width: 40rem;
+}
+
+.about-item1 {
+    width: 25rem;
+    height: 25rem;
+}
+}
