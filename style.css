@@ -49,6 +49,10 @@ img {
     src: url(./fonts/NanumGothicCoding-Regular.ttf)
 }
 
+.outline {
+    outline: 1px solid grey;
+}
+
 /* navigáció */
 
 .nav-flexbox {
@@ -161,7 +165,6 @@ img {
 
 .skills-title2 {
     width: 25rem;
-    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,7 +188,7 @@ img {
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin: 1rem;
     padding-top: 3rem;
@@ -202,16 +205,7 @@ img {
     padding: 1rem 1rem 5rem;
 }
 
-.certificate-item1 {
-    outline: 1px solid grey;
-    width: 20rem;
-    height: 12rem;
-    margin: 2rem;
-    text-align: center;
-}
-
-.certificate-item2 {
-    outline: 1px solid grey;
+.certificate-items {
     width: 20rem;
     height: 12rem;
     margin: 2rem;
@@ -236,10 +230,8 @@ img {
 
 .portfolio-title2-container {
     width: 80%;
-    height: 4rem;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
 }
 
 .portfolio-title2 {
@@ -247,8 +239,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 25rem;
-    height: 4rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: "poppins";
 }
 
@@ -384,4 +375,64 @@ img {
 /* Kis képernyőméret */
 @media screen and (min-width: 576px) {
 
+.nav-container {
+    height: 6rem;
+}
+
+.nav-item3,
+.nav-item4,
+.nav-item5 {
+    font-size: 1.7rem;
+}
+
+.main-title {
+    font-size: 12rem;
+}
+
+.main-p1 {
+    font-size: 4rem;
+}
+
+.main-p2 {
+    font-size: 7.5rem;
+}
+
+.main-p3 {
+    font-size: 2.5rem;
+}
+
+.skills-title-container {
+    height: 6rem;
+}
+
+.skills-title2 {
+    font-size: 2rem;
+}
+
+.skills-items {
+    width: 11rem;
+    margin: 5rem;
+}
+
+.skills-items-container {
+    justify-content: center;
+}
+
+.certificate-items {
+    width: 25rem;
+    height: 15rem;
+}
+
+.portfolio-title-container {
+    height: 6rem;
+}
+
+.portfolio-items {
+    width: 20rem;
+    height: 20rem;
+}
+
+.about-title-container {
+    height: 6rem;
+}
 }
