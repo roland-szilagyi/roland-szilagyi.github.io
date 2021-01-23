@@ -81,19 +81,19 @@ img {
 
 .nav-item3 {
     width: 17%;
-    font-family: "poppins";
+    font-family: "poppins", Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
 
 .nav-item4 {
     width: 17%;
-    font-family: "poppins";
+    font-family: "poppins", Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
 
 .nav-item5 {
     width: 17%;
-    font-family: "poppins";
+    font-family: "poppins", Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
 
@@ -111,7 +111,7 @@ img {
 .main-title {
     text-align: center;
     font-size: 8rem;
-    font-family: "poppins";
+    font-family: "poppins", Arial, Helvetica, sans-serif;
     color: white;
     position: relative;
     top: 3rem;
@@ -128,7 +128,7 @@ img {
     justify-content: center;
     text-align: center;
     font-size: 5rem;
-    font-family: "shadows";
+    font-family: "shadows", Arial, Helvetica, sans-serif;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
@@ -136,7 +136,7 @@ img {
 .main-p3 {
     text-align: center;
     font-size: 1.7rem;
-    font-family: "baskervville";
+    font-family: "baskervville", Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -169,7 +169,7 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 1.7rem;
-    font-family: "poppins";
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .skills-items {
@@ -240,7 +240,7 @@ img {
     align-items: center;
     width: 25rem;
     font-size: 2rem;
-    font-family: "poppins";
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .portfolio-items-container {
@@ -278,7 +278,7 @@ img {
     width: 20rem;
     text-align: center;
     font-size: 2rem;
-    font-family: "poppins";
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .about-items-container {
@@ -298,8 +298,7 @@ img {
 }
 
 .about-item2 {
-    width: 30rem;
-    font-family: "nanumgothic";
+    font-family: "nanumgothic", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 2.6rem;
     display: flex;
@@ -369,7 +368,7 @@ img {
     color: white;
     font-size: 1.5rem;
     text-align: center;
-    font-family: "baskervville" Arial, Helvetica, sans-serif
+    font-family: "baskervville", Arial, Helvetica, sans-serif;
 }
 
 /* Kis képernyőméret */
@@ -478,5 +477,16 @@ img {
 .about-item1 {
     width: 25rem;
     height: 25rem;
+}
+}
+
+@media screen and (min-width: 992px) {
+
+.skills-items {
+    width: 11rem;
+}
+
+.about-item2 {
+    font-size: 3rem;
 }
 }
