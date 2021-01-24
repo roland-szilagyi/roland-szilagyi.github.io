@@ -279,6 +279,10 @@ img {
     font-size: 1.5rem;
 }
 
+.portfolio-items-details {
+    display: none;
+}
+
 /* portfolio vége */
 /* about kezdete */
 
@@ -449,6 +453,10 @@ img {
     height: 20rem;
 }
 
+.portfolio-items-details {
+    display: none;
+}
+
 .about-title-container {
     height: 6rem;
 }
@@ -492,6 +500,10 @@ img {
     width: 40rem;
 }
 
+.portfolio-items-details {
+    display: none;
+}
+
 .about-item1 {
     width: 25rem;
     height: 25rem;
@@ -500,8 +512,16 @@ img {
 
 @media screen and (min-width: 992px) {
 
+.nav-container {
+    height: 4rem;
+}
+
 .skills-items {
     width: 11rem;
+}
+
+.portfolio-items-details {
+    display: none;
 }
 
 .about-item2 {
@@ -520,8 +540,8 @@ img {
 }
 
 .main-container {
-    height: 54rem;
-    padding: 6rem;
+    height: 58rem;
+    padding: 8rem;
 }
 
 .skills-title-container {
@@ -538,15 +558,16 @@ img {
 
 .certificate-container {
     flex-direction: row;
-    height: 25rem;
+    height: 28rem;
 }
 
 .portfolio-items-container {
-    height: 61rem;
+    height: 64rem;
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 5rem 2rem;
 }
 
 .portfolio-items {
@@ -561,9 +582,10 @@ img {
     margin: 2rem 0 2rem;
     text-align: center;
     font-size: 1.5rem;
+    display: block;
 }
 
 .about-items-container {
-    height: 53rem;
+    height: 56rem;
 }
 }
