@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url("./images/wallpaper.jpg");
+    background-image: url("./images/wallpaper2-576.png");
     background-size: cover;
 }
 
@@ -72,6 +72,8 @@ img {
 .nav-item1 {
     width: 20%;
     background-color: lightgray;
+    font-size: 1.6rem;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .nav-item2 {
@@ -155,6 +157,8 @@ img {
     width: 20%;
     text-align: center;
     background-color: lightgrey;
+    font-size: 1.6rem;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .skills-title2-container {
@@ -226,6 +230,8 @@ img {
     width: 20%;
     text-align: center;
     background-color: lightgrey;
+    font-size: 1.6rem;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .portfolio-title2-container {
@@ -300,7 +306,7 @@ img {
 .about-item2 {
     font-family: "nanumgothic", Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     display: flex;
     align-items: flex-start;
     margin: 1rem;
