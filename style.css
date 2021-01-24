@@ -15,6 +15,15 @@ body {
 
 a:link {
     text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
 }
 
 img {
@@ -214,6 +223,7 @@ img {
     height: 12rem;
     margin: 2rem;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 /* skills vége */
@@ -266,6 +276,7 @@ img {
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 /* portfolio vége */
@@ -301,6 +312,7 @@ img {
     outline: 1px solid grey;
     width: 20rem;
     height: 20rem;
+    text-align: center;
 }
 
 .about-item2 {
@@ -494,5 +506,64 @@ img {
 
 .about-item2 {
     font-size: 3rem;
+}
+}
+
+@media screen and (min-width: 1200px) {
+
+.nav-container {
+    height: 4rem;
+}
+
+.nav-item2 {
+    width: 80%;
+}
+
+.main-container {
+    height: 54rem;
+    padding: 6rem;
+}
+
+.skills-title-container {
+    height: 4rem;
+}
+
+.portfolio-title-container {
+    height: 4rem;
+}
+
+.about-title-container {
+    height: 4rem;
+}
+
+.certificate-container {
+    flex-direction: row;
+    height: 25rem;
+}
+
+.portfolio-items-container {
+    height: 61rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio-items {
+    height: 15rem;
+}
+
+.portfolio-items-details {
+    outline: 1px solid grey;
+    flex-wrap: wrap;
+    width: 50rem;
+    height: 10rem;
+    margin: 2rem 0 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-items-container {
+    height: 53rem;
 }
 }
