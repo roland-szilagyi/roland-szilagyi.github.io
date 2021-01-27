@@ -31,8 +31,6 @@ img {
     height: auto;
 }
 
-/* fontok */
-
 @font-face {
     font-family: "poppins";
     src: url(./fonts/poppins/Poppins-Regular.ttf);
@@ -61,8 +59,6 @@ img {
 .outline {
     outline: 1px solid grey;
 }
-
-/* navigáció */
 
 .nav-flexbox {
     display: flex;
@@ -108,9 +104,6 @@ img {
     font-size: 1.2rem;
 }
 
-/* navigáció vége */
-/* main */
-
 .main-container {
     height: 42rem;
     display: flex;
@@ -150,9 +143,6 @@ img {
     font-family: "baskervville", Arial, Helvetica, sans-serif;
     color: white;
 }
-
-/* main vége */
-/* skills */
 
 .skills-title-container {
     height: 4rem;
@@ -207,8 +197,6 @@ img {
     padding-top: 3rem;
 }
 
-/* tanusítványok */
-
 .certificate-container {
     display: flex;
     flex-direction: column;
@@ -225,9 +213,6 @@ img {
     text-align: center;
     font-size: 1.5rem;
 }
-
-/* skills vége */
-/* portfolio kezdete */
 
 .portfolio-title-container {
     height: 4rem;
@@ -282,9 +267,6 @@ img {
 .portfolio-items-details {
     display: none;
 }
-
-/* portfolio vége */
-/* about kezdete */
 
 .about-title-container {
     height: 4rem;
@@ -370,9 +352,6 @@ img {
     width: 6rem;
 }
 
-/* about vége */
-/* footer kezdete */
-
 .footer-container {
     height: 6rem;
     display: flex;
@@ -393,7 +372,6 @@ img {
     font-family: "baskervville", Arial, Helvetica, sans-serif;
 }
 
-/* Kis képernyőméret */
 @media screen and (min-width: 576px) {
 
 .nav-container {
