@@ -1,12 +1,12 @@
 # Portfolio site
 
-Az első porftólió oldalam.
+My Portfolio site.
 
-Alkalmazott technológiák:
+Applied Technologies:
 
     - html5
     - css3
 
-## Hostolás
+## Host
 
 https://roland-szilagyi.github.io
