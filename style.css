@@ -80,27 +80,14 @@ img {
     font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
+.nav-items-menu {
+    width: 17%;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
 .nav-item2 {
     width: 30%;
-    display: flex;
-}
-
-.nav-item3 {
-    width: 17%;
-    font-family: "poppins", Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-}
-
-.nav-item4 {
-    width: 17%;
-    font-family: "poppins", Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-}
-
-.nav-item5 {
-    width: 17%;
-    font-family: "poppins", Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
 }
 
 .main-container {
