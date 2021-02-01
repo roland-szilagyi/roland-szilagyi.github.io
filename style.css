@@ -314,18 +314,10 @@ img {
     justify-content: center;
 }
 
-.github {
-    width: 6rem;
-}
-
 .linkedin-container {
     display: flex;
     height: 6rem;
     justify-content: center;
-}
-
-.linkedin {
-    width: 6rem;
 }
 
 .facebook-container {
@@ -334,7 +326,7 @@ img {
     justify-content: center;
 }
 
-.facebook {
+.about-link-icons {
     width: 6rem;
 }
 
