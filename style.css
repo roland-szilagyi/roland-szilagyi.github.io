@@ -193,11 +193,15 @@ img {
 }
 
 .certificate-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20rem;
     height: 12rem;
     margin: 2rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: lightgrey;
 }
 
 .portfolio-title-container {
