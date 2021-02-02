@@ -257,6 +257,9 @@ img {
 
 .portfolio-items-details {
     display: none;
+    font-size: 3rem;
+    color: lightgrey;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .about-title-container {
