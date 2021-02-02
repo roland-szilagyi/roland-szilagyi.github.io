@@ -202,6 +202,7 @@ img {
     text-align: center;
     font-size: 2.5rem;
     color: lightgrey;
+    background-color: rgba(27, 27, 27, 0.2)
 }
 
 .portfolio-title-container {
@@ -257,6 +258,7 @@ img {
     font-size: 3rem;
     color: lightgrey;
     font-family: "poppins", Arial, Helvetica, sans-serif;
+    background-color: rgba(27, 27, 27, 0.2)
 }
 
 .portfolio-items-details {
@@ -264,6 +266,7 @@ img {
     font-size: 3rem;
     color: lightgrey;
     font-family: "poppins", Arial, Helvetica, sans-serif;
+    background-color: rgba(27, 27, 27, 0.2);
 }
 
 .about-title-container {
@@ -294,9 +297,16 @@ img {
 
 .about-item1 {
     outline: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20rem;
     height: 20rem;
     text-align: center;
+    background-color: rgba(27, 27, 27, 0.2);
+    font-size: 3rem;
+    color: lightgrey;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .about-item2 {
