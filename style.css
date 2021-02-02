@@ -157,7 +157,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
@@ -204,6 +204,7 @@ img {
     color: lightgrey;
     background-color: rgba(27, 27, 27, 0.2);
     border: 0.1rem groove lightgrey;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .portfolio-title-container {
@@ -264,7 +265,7 @@ img {
 
 .portfolio-items-details {
     display: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: lightgrey;
     font-family: "poppins", Arial, Helvetica, sans-serif;
     background-color: rgba(27, 27, 27, 0.2);
@@ -306,7 +307,7 @@ img {
     height: 20rem;
     text-align: center;
     background-color: rgba(27, 27, 27, 0.2);
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: lightgrey;
     font-family: "poppins", Arial, Helvetica, sans-serif;
 }
@@ -316,7 +317,15 @@ img {
     color: white;
     font-size: 2.4rem;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    text-shadow: 0.1rem 0.1rem black;
+}
+
+.fromhungary {
+    font-size: 2rem;
     margin: 1rem;
 }
 
@@ -407,7 +416,7 @@ img {
 }
 
 .skills-title2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .skills-items {
@@ -619,7 +628,7 @@ img {
 }
 
 @media screen and (min-width: 1400px) {
-    
+
 .nav-item2 {
     width: 90%;
 }
