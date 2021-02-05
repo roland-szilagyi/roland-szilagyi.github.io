@@ -32,6 +32,11 @@ img {
     height: auto;
 }
 
+.certificate-items:hover, .portfolio-works:hover {
+    color: #FFD839;
+    cursor: pointer;
+}
+
 /* BODY START */
 
 .nav-flexbox {
