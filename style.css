@@ -67,7 +67,7 @@ img {
 }
 
 .main-container {
-    height: 68rem;
+    height: calc(100vh - 6rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
