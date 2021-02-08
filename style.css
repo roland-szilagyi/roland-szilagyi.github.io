@@ -32,7 +32,7 @@ img {
     height: auto;
 }
 
-.certificate-items:hover, .portfolio-works:hover {
+.portfolio-works:hover {
     color: #FFD839;
     cursor: pointer;
 }
@@ -46,8 +46,8 @@ img {
 }
 
 .nav-container {
-    margin-top: 2rem;
-    height: 4rem;
+    margin-top: 2vh;
+    height: 5vh;
     display: flex;
     background-color: white;
     opacity: 0.85;
@@ -67,7 +67,7 @@ img {
 }
 
 .main-container {
-    height: calc(100vh - 6rem);
+    height: 93vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,10 +95,11 @@ img {
 .develop {
     font-size: 1.7rem;
     font-family: "baskervville", Arial, Helvetica, sans-serif;
+    padding-bottom: 8rem;
 }
 
 .skills-titles-container {
-    height: 4rem;
+    height: 5vh;
     display: flex;
     flex-direction: row-reverse;
     background-color: white;
@@ -135,7 +136,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 3rem 0 3rem 0;
+    height: 95vh;
 }
 
 .skills-logos {
@@ -143,30 +144,8 @@ img {
     margin: 3rem;
 }
 
-.certificate-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 35rem;
-    padding-bottom: 5rem;
-}
-
-.certificate-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18rem;
-    height: 13rem;
-    font-size: 2rem;
-    color: lightgrey;
-    background-color: rgba(27, 27, 27, 0.2);
-    font-family: "poppins", Arial, Helvetica, sans-serif;
-    border: 0.1rem groove lightgrey;
-}
-
 .portfolio-titles-container {
-    height: 4rem;
+    height: 5vh;
     display: flex;
     background: white;
     opacity: 0.85;
@@ -198,7 +177,7 @@ img {
 }
 
 .portfolio-items-container {
-    height: 70rem;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -231,7 +210,7 @@ img {
 }
 
 .about-title-container {
-    height: 4rem;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,7 +227,7 @@ img {
 }
 
 .about-items-container {
-    height: 50rem;
+    height: 73vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -301,7 +280,7 @@ img {
     height: auto;
     color: white;
     font-size: 2.5rem;
-    padding: 2rem;
+    height: 14vh;
 }
 
 .about-link-icons {
@@ -309,7 +288,7 @@ img {
 }
 
 .footer-container {
-    height: 6rem;
+    height: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
