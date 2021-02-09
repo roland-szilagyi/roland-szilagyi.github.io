@@ -62,7 +62,7 @@ img {
   align-items: center;
   width: 20vw;
   font-family: "poppins", Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 2vh;
 }
 
 .main-container {
@@ -110,7 +110,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 20vw;
-  font-size: 1.4rem;
+  font-size: 2vh;
   font-family: "poppins", Arial, Helvetica, sans-serif;
   background-color: darkgrey;
 }
@@ -126,7 +126,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 2vh;
   font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
@@ -156,7 +156,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 20vw;
-  font-size: 1.4rem;
+  font-size: 2vh;
   font-family: "poppins", Arial, Helvetica, sans-serif;
   background-color: darkgrey;
 }
@@ -172,7 +172,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 2vh;
   font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
@@ -223,7 +223,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 2vh;
   font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
