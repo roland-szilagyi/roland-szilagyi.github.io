@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -74,24 +75,24 @@ img {
 }
 
 .hello {
-  font-size: 9rem;
+  font-size: 13vh;
   font-family: "poppins", Arial, Helvetica, sans-serif;
   position: relative;
   top: 2rem;
 }
 
 .mynameis {
-  font-size: 2.5rem;
+  font-size: 4.5vh;
 }
 
 .roland {
-  font-size: 5rem;
+  font-size: 7vh;
   font-family: "shadows", Arial, Helvetica, sans-serif;
   text-shadow: 1px 1px 1px black;
 }
 
 .develop {
-  font-size: 1.7rem;
+  font-size: 2.7vh;
   font-family: "baskervville", Arial, Helvetica, sans-serif;
   padding-bottom: 8rem;
 }
