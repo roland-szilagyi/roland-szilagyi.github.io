@@ -199,7 +199,6 @@ img {
 }
 
 .portfolio-details {
-  /* HIDDEN */
   display: none;
   justify-content: center;
   align-items: center;
@@ -208,6 +207,7 @@ img {
   font-family: "poppins", Arial, Helvetica, sans-serif;
   background-color: rgba(27, 27, 27, 0.2);
   border: 0.1rem groove lightgrey;
+  text-align: center;
 }
 
 .about-title-container {
