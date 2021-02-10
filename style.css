@@ -136,12 +136,13 @@ img {
   justify-content: space-evenly;
   align-items: center;
   height: 95vh;
-  padding: 0 5vh;
+  padding: 10vh 5vh;
+  
 }
 
 .skills-logos {
-  width: 7rem;
-  margin: 4rem;
+  width: 11vh;
+  margin: 4vh;
 }
 
 .portfolio-titles-container {
@@ -177,10 +178,9 @@ img {
 }
 
 .portfolio-items-container {
-  height: 95vh;
+  height: 32vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   color: lightgrey;
 }
@@ -190,9 +190,9 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20rem;
-  height: 15rem;
-  font-size: 2rem;
+  width: 30vh;
+  height: 17vh;
+  font-size: 2vh;
   background-color: rgba(27, 27, 27, 0.2);
   font-family: "poppins", Arial, Helvetica, sans-serif;
   border: 0.1rem groove lightgrey;
@@ -203,7 +203,7 @@ img {
   display: none;
   justify-content: center;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 2vh;
   color: lightgrey;
   font-family: "poppins", Arial, Helvetica, sans-serif;
   background-color: rgba(27, 27, 27, 0.2);
@@ -238,18 +238,18 @@ img {
 }
 
 .about-rolandszilagyi {
-  font-size: 4rem;
-  text-shadow: 1px 1px 1px black;
+  font-size: 5.5vh;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 .about-profilpic {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20rem;
-  height: 20rem;
-  font-size: 2rem;
-  margin: 3rem;
+  width: 28vh;
+  height: 28vh;
+  font-size: 2vh;
+  margin: 3vh;
   color: lightgrey;
   background-color: rgba(27, 27, 27, 0.2);
   border: 0.1rem groove lightgrey;
@@ -258,34 +258,34 @@ img {
 .about-frontend-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  height: 6rem;
+  height: 10vh;
 }
 
 .about-frontend {
-  font-size: 2.4rem;
+  font-size: 3.5vh;
   text-shadow: 0.1rem 0.1rem black;
 }
 
 .fromhungary {
-  font-size: 2rem;
+  font-size: 3vh;
   text-shadow: 0.1rem 0.1rem black;
 }
 
 .about-links-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: auto;
   height: auto;
   color: white;
-  font-size: 2.5rem;
-  height: 14vh;
+  height: 17vh;
 }
 
 .about-link-icons {
-  width: 5rem;
+  width: 6vh;
+  margin: 5vh;
 }
 
 .footer-container {
@@ -294,12 +294,24 @@ img {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1.4vh;
+  padding: 0.5vh;
   background-color: black;
   opacity: 0.85;
   color: white;
   font-family: "baskervville", Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 576px) {
+  .portfolio-details {
+    display: flex;
+    margin: 0 5vw 0 5vw;
+    width: 50vw;
+  }
+
+  .portfolio-works {
+    margin: 0 5vw 0 5vw;
+  }
 }
 
 /* FONTS */
