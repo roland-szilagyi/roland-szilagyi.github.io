@@ -318,25 +318,25 @@ img {
 
 @font-face {
   font-family: "poppins";
-  src: url(./fonts/poppins/Poppins-Regular.ttf);
+  src: url(./assets/fonts/poppins/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: "rowdies";
-  src: url(./fonts/Rowdies-Light.ttf);
+  src: url(./assets/fonts/Rowdies-Light.ttf);
 }
 
 @font-face {
   font-family: "shadows";
-  src: url(./fonts/ShadowsIntoLight-Regular.ttf);
+  src: url(./assets/fonts/ShadowsIntoLight-Regular.ttf);
 }
 
 @font-face {
   font-family: "baskervville";
-  src: url(./fonts/Baskervville-Regular.otf);
+  src: url(./assets/fonts/Baskervville-Regular.otf);
 }
 
 @font-face {
   font-family: "nanumgothic";
-  src: url(./fonts/NanumGothicCoding-Regular.ttf);
+  src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
 }
