@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-image: url("./images/wallpaper.png");
+  background-image: url("/src/assets/images/wallpaper.png");
   background-size: cover;
 }
 
