@@ -1,342 +1,39 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10px;
-}
-
 body {
-  background-image: url("/src/assets/images/wallpaper.png");
+  background-image: url("/src/assets/images/wallpaper.jpeg");
   background-size: cover;
 }
 
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: grey;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-.portfolio-works:hover {
-  color: #ffd839;
-  cursor: pointer;
-}
-
-/* BODY START */
-
-.nav-flexbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-container {
-  margin-top: 2vh;
-  height: 5vh;
-  display: flex;
-  background-color: white;
-  opacity: 0.85;
-}
-
-.rsz {
-  background-color: darkgrey;
-}
-
-.nav-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20vw;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-  font-size: 2vh;
-}
-
-.main-container {
-  height: 93vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.color-white {
   color: white;
 }
 
-.hello {
-  font-size: 13vh;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-  position: relative;
-  top: 2rem;
+.kk {
+  color: var(--bs-teal);
 }
 
-.mynameis {
-  font-size: 4.5vh;
-}
-
-.roland {
-  font-size: 7vh;
-  font-family: "shadows", Arial, Helvetica, sans-serif;
-  text-shadow: 1px 1px 1px black;
-}
-
-.develop {
-  font-size: 2.7vh;
-  font-family: "baskervville", Arial, Helvetica, sans-serif;
-  padding-bottom: 8rem;
-}
-
-.skills-titles-container {
-  height: 5vh;
-  display: flex;
-  flex-direction: row-reverse;
-  background-color: white;
-  opacity: 0.85;
-}
-
-.skills-s {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20vw;
-  font-size: 2vh;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-  background-color: darkgrey;
-}
-
-.skills-container {
-  width: 80vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2vh;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-}
-
-.skills-logos-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 95vh;
-  padding: 10vh 5vh;
-  
-}
-
-.skills-logos {
-  width: 11vh;
-  margin: 4vh;
-}
-
-.portfolio-titles-container {
-  height: 5vh;
-  display: flex;
-  background: white;
-  opacity: 0.85;
-}
-
-.portfolio-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20vw;
-  font-size: 2vh;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-  background-color: darkgrey;
-}
-
-.portfolio-container {
-  width: 80vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2vh;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-}
-
-.portfolio-items-container {
-  height: 32vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: lightgrey;
-}
-
-.portfolio-works {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 30vh;
-  height: 17vh;
-  font-size: 2vh;
-  background-color: rgba(27, 27, 27, 0.2);
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-  border: 0.1rem groove lightgrey;
-}
-
-.portfolio-details {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  font-size: 2vh;
-  color: lightgrey;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-  background-color: rgba(27, 27, 27, 0.2);
-  border: 0.1rem groove lightgrey;
-  text-align: center;
-}
-
-.about-title-container {
-  height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  opacity: 0.85;
-}
-
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2vh;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-}
-
-.about-items-container {
-  height: 73vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
-}
-
-.about-rolandszilagyi {
-  font-size: 5.5vh;
-  text-shadow: 0.1rem 0.1rem 0.1rem black;
-}
-
-.about-profilpic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 28vh;
-  height: 28vh;
-  font-size: 2vh;
-  margin: 3vh;
-  color: lightgrey;
-  background-color: rgba(27, 27, 27, 0.2);
-  border: 0.1rem groove lightgrey;
-}
-
-.about-frontend-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 10vh;
-}
-
-.about-frontend {
-  font-size: 3.5vh;
-  text-shadow: 0.1rem 0.1rem black;
-}
-
-.fromhungary {
-  font-size: 3vh;
-  text-shadow: 0.1rem 0.1rem black;
-}
-
-.about-links-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  height: auto;
-  color: white;
-  height: 17vh;
-}
-
-.about-link-icons {
-  width: 6vh;
-  margin: 5vh;
-}
-
-.footer-container {
-  height: 5vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 1.4vh;
-  padding: 0.5vh;
-  background-color: black;
-  opacity: 0.85;
-  color: white;
-  font-family: "baskervville", Arial, Helvetica, sans-serif;
-}
-
-@media (min-width: 576px) {
-  .portfolio-details {
-    display: flex;
-    margin: 0 5vw 0 5vw;
-    width: 50vw;
-  }
-
-  .portfolio-works {
-    margin: 0 5vw 0 5vw;
-  }
-}
-
-/* FONTS */
-
-@font-face {
-  font-family: "poppins";
-  src: url(./assets/fonts/poppins/Poppins-Regular.ttf);
-}
-
-@font-face {
-  font-family: "rowdies";
-  src: url(./assets/fonts/Rowdies-Light.ttf);
-}
-
-@font-face {
-  font-family: "shadows";
-  src: url(./assets/fonts/ShadowsIntoLight-Regular.ttf);
-}
-
-@font-face {
-  font-family: "baskervville";
-  src: url(./assets/fonts/Baskervville-Regular.otf);
-}
-
-@font-face {
-  font-family: "nanumgothic";
-  src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
