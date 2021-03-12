@@ -6,7 +6,8 @@ Applied Technologies:
 
     - html5
     - css3
+    - bootstrap5
 
-## Host
+## Hosting
 
 https://roland-szilagyi.github.io
