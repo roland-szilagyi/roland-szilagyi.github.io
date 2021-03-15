@@ -7,6 +7,10 @@ body {
   color: white;
 }
 
+.main-font {
+  font-size: 15vw;
+}
+
 .kk {
   color: var(--bs-teal);
 }
