@@ -10,3 +10,8 @@ body {
 .main-font {
   font-size: 15vw;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
